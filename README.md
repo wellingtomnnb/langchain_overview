@@ -29,5 +29,5 @@ Execute o script para iniciar o chatbot:
 python chatbot.py
 ```
 
-O chatbot entra em um loop onde recebe mensagens do usuário e responde utilizando a API da OpenAI.
+O chatbot entra em um loop onde recebe mensagens do usuário e responde utilizando a API da OpenAI, através do terminal.
 
