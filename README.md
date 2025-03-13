@@ -2,32 +2,40 @@
 Esse repositório foi desenvolvido para proporcionar uma experiência prática e profunda no uso de modelos de linguagem, ferramentas avançadas e estratégias de implementação voltadas para a criação de soluções baseadas em inteligência artificial.
 
 
-### Chatbot com OpenAI
-Este módulo implementa um chatbot interativo utilizando a API da OpenAI e a biblioteca Colorama para formatação do terminal.
+## Tópicos Abordados:
+**Seção 1: OpenAI e Suas Ferramentas Poderosas**
+* Chatbots Personalizados
+* Function Calling
+* Imagens com DALL·E
+* Trabalhando com Áudio
+* Melhores Práticas de Integração
 
-**Requisitos**
+
+## Requisitos
 
 * Python 3.9
 
-**Bibliotecas**
-
-* openai
-
-* colorama
-
-**Instalação**
-
+## Instalação
+1. Cria e Ativa Ambiente Virtual
 ```
-pip install openai colorama
+python3.9 -m venv .venv
+source .venv/bin/activate
 ```
 
-**Uso**
+2. Instala dependencias
+```
+pip install -r requirements.txt
+```
 
-Execute o script para iniciar o chatbot:
+## Uso
+Execute o script para iniciar um dos serviços:
 
+* Chatbot Simples no Terminal
 ```
 python chatbot.py
 ```
 
-O chatbot entra em um loop onde recebe mensagens do usuário e responde utilizando a API da OpenAI, através do terminal.
-
+* Chatbot integrado com API do Yahoo Finance com interface Web
+```
+streamlit run ./chat_finance_st.py
+```
